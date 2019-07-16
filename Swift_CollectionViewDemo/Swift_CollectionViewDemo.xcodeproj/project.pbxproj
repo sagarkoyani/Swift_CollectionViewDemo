@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D609852296A79900FE54A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D609842296A79900FE54A6 /* AppDelegate.swift */; };
+		18D609872296A79900FE54A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D609862296A79900FE54A6 /* ViewController.swift */; };
+		18D6098A2296A79900FE54A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D609882296A79900FE54A6 /* Main.storyboard */; };
+		18D6098C2296A79C00FE54A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D6098B2296A79C00FE54A6 /* Assets.xcassets */; };
+		18D6098F2296A79C00FE54A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D6098D2296A79C00FE54A6 /* LaunchScreen.storyboard */; };
+		18D609B02296AD1400FE54A6 /* MANALI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609972296AD1400FE54A6 /* MANALI.jpg */; };
+		18D609B12296AD1400FE54A6 /* KODAIKANAL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609982296AD1400FE54A6 /* KODAIKANAL.jpg */; };
+		18D609B22296AD1400FE54A6 /* MOUNT-ABU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609992296AD1400FE54A6 /* MOUNT-ABU.jpg */; };
+		18D609B32296AD1400FE54A6 /* AGRA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D6099A2296AD1400FE54A6 /* AGRA.jpg */; };
+		18D609B42296AD1400FE54A6 /* LADAKH.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D6099B2296AD1400FE54A6 /* LADAKH.jpg */; };
+		18D609B52296AD1400FE54A6 /* MUSSOORIE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D6099C2296AD1400FE54A6 /* MUSSOORIE.jpg */; };
+		18D609B62296AD1400FE54A6 /* MUNNAR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D6099D2296AD1400FE54A6 /* MUNNAR.jpg */; };
+		18D609B72296AD1400FE54A6 /* ALLEPPEY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D6099E2296AD1400FE54A6 /* ALLEPPEY.jpg */; };
+		18D609B82296AD1400FE54A6 /* DARJEELING.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D6099F2296AD1400FE54A6 /* DARJEELING.jpg */; };
+		18D609B92296AD1400FE54A6 /* MCLEODGANJ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609A02296AD1400FE54A6 /* MCLEODGANJ.jpg */; };
+		18D609BA2296AD1400FE54A6 /* OOTY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609A12296AD1400FE54A6 /* OOTY.jpg */; };
+		18D609BB2296AD1400FE54A6 /* GOA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609A22296AD1400FE54A6 /* GOA.jpg */; };
+		18D609BC2296AD1400FE54A6 /* COORG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609A32296AD1400FE54A6 /* COORG.jpg */; };
+		18D609BD2296AD1400FE54A6 /* BANGALORE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609A42296AD1400FE54A6 /* BANGALORE.jpg */; };
+		18D609BE2296AD1400FE54A6 /* NAINITAL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609A52296AD1400FE54A6 /* NAINITAL.jpg */; };
+		18D609BF2296AD1400FE54A6 /* VAISHNO-DEVI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609A62296AD1400FE54A6 /* VAISHNO-DEVI.jpg */; };
+		18D609C02296AD1400FE54A6 /* DALHOUSIE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609A72296AD1400FE54A6 /* DALHOUSIE.jpg */; };
+		18D609C12296AD1400FE54A6 /* SHIMLA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609A82296AD1400FE54A6 /* SHIMLA.jpg */; };
+		18D609C22296AD1400FE54A6 /* TIRUPATI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609A92296AD1400FE54A6 /* TIRUPATI.jpg */; };
+		18D609C32296AD1400FE54A6 /* UDAIPUR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609AA2296AD1400FE54A6 /* UDAIPUR.jpg */; };
+		18D609C42296AD1400FE54A6 /* ANDAMAN.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609AB2296AD1400FE54A6 /* ANDAMAN.jpg */; };
+		18D609C52296AD1400FE54A6 /* GANGTOK.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609AC2296AD1400FE54A6 /* GANGTOK.jpg */; };
+		18D609C62296AD1400FE54A6 /* PONDICHERRY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609AD2296AD1400FE54A6 /* PONDICHERRY.jpg */; };
+		18D609C72296AD1400FE54A6 /* DELHI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609AE2296AD1400FE54A6 /* DELHI.jpg */; };
+		18D609C82296AD1400FE54A6 /* KANHA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D609AF2296AD1400FE54A6 /* KANHA.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D609812296A79900FE54A6 /* Swift_CollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_CollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D609842296A79900FE54A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18D609862296A79900FE54A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18D609892296A79900FE54A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D6098B2296A79C00FE54A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D6098E2296A79C00FE54A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D609902296A79C00FE54A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D609972296AD1400FE54A6 /* MANALI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MANALI.jpg; sourceTree = "<group>"; };
+		18D609982296AD1400FE54A6 /* KODAIKANAL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KODAIKANAL.jpg; sourceTree = "<group>"; };
+		18D609992296AD1400FE54A6 /* MOUNT-ABU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "MOUNT-ABU.jpg"; sourceTree = "<group>"; };
+		18D6099A2296AD1400FE54A6 /* AGRA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AGRA.jpg; sourceTree = "<group>"; };
+		18D6099B2296AD1400FE54A6 /* LADAKH.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LADAKH.jpg; sourceTree = "<group>"; };
+		18D6099C2296AD1400FE54A6 /* MUSSOORIE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MUSSOORIE.jpg; sourceTree = "<group>"; };
+		18D6099D2296AD1400FE54A6 /* MUNNAR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MUNNAR.jpg; sourceTree = "<group>"; };
+		18D6099E2296AD1400FE54A6 /* ALLEPPEY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ALLEPPEY.jpg; sourceTree = "<group>"; };
+		18D6099F2296AD1400FE54A6 /* DARJEELING.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DARJEELING.jpg; sourceTree = "<group>"; };
+		18D609A02296AD1400FE54A6 /* MCLEODGANJ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MCLEODGANJ.jpg; sourceTree = "<group>"; };
+		18D609A12296AD1400FE54A6 /* OOTY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OOTY.jpg; sourceTree = "<group>"; };
+		18D609A22296AD1400FE54A6 /* GOA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GOA.jpg; sourceTree = "<group>"; };
+		18D609A32296AD1400FE54A6 /* COORG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COORG.jpg; sourceTree = "<group>"; };
+		18D609A42296AD1400FE54A6 /* BANGALORE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BANGALORE.jpg; sourceTree = "<group>"; };
+		18D609A52296AD1400FE54A6 /* NAINITAL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NAINITAL.jpg; sourceTree = "<group>"; };
+		18D609A62296AD1400FE54A6 /* VAISHNO-DEVI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "VAISHNO-DEVI.jpg"; sourceTree = "<group>"; };
+		18D609A72296AD1400FE54A6 /* DALHOUSIE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DALHOUSIE.jpg; sourceTree = "<group>"; };
+		18D609A82296AD1400FE54A6 /* SHIMLA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SHIMLA.jpg; sourceTree = "<group>"; };
+		18D609A92296AD1400FE54A6 /* TIRUPATI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TIRUPATI.jpg; sourceTree = "<group>"; };
+		18D609AA2296AD1400FE54A6 /* UDAIPUR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UDAIPUR.jpg; sourceTree = "<group>"; };
+		18D609AB2296AD1400FE54A6 /* ANDAMAN.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ANDAMAN.jpg; sourceTree = "<group>"; };
+		18D609AC2296AD1400FE54A6 /* GANGTOK.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GANGTOK.jpg; sourceTree = "<group>"; };
+		18D609AD2296AD1400FE54A6 /* PONDICHERRY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PONDICHERRY.jpg; sourceTree = "<group>"; };
+		18D609AE2296AD1400FE54A6 /* DELHI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DELHI.jpg; sourceTree = "<group>"; };
+		18D609AF2296AD1400FE54A6 /* KANHA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KANHA.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D6097E2296A79900FE54A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D609782296A79900FE54A6 = {
+			isa = PBXGroup;
+			children = (
+				18D609832296A79900FE54A6 /* Swift_CollectionViewDemo */,
+				18D609822296A79900FE54A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D609822296A79900FE54A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D609812296A79900FE54A6 /* Swift_CollectionViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D609832296A79900FE54A6 /* Swift_CollectionViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18D609962296AD1400FE54A6 /* Assets */,
+				18D609842296A79900FE54A6 /* AppDelegate.swift */,
+				18D609862296A79900FE54A6 /* ViewController.swift */,
+				18D609882296A79900FE54A6 /* Main.storyboard */,
+				18D6098B2296A79C00FE54A6 /* Assets.xcassets */,
+				18D6098D2296A79C00FE54A6 /* LaunchScreen.storyboard */,
+				18D609902296A79C00FE54A6 /* Info.plist */,
+			);
+			path = Swift_CollectionViewDemo;
+			sourceTree = "<group>";
+		};
+		18D609962296AD1400FE54A6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				18D609972296AD1400FE54A6 /* MANALI.jpg */,
+				18D609982296AD1400FE54A6 /* KODAIKANAL.jpg */,
+				18D609992296AD1400FE54A6 /* MOUNT-ABU.jpg */,
+				18D6099A2296AD1400FE54A6 /* AGRA.jpg */,
+				18D6099B2296AD1400FE54A6 /* LADAKH.jpg */,
+				18D6099C2296AD1400FE54A6 /* MUSSOORIE.jpg */,
+				18D6099D2296AD1400FE54A6 /* MUNNAR.jpg */,
+				18D6099E2296AD1400FE54A6 /* ALLEPPEY.jpg */,
+				18D6099F2296AD1400FE54A6 /* DARJEELING.jpg */,
+				18D609A02296AD1400FE54A6 /* MCLEODGANJ.jpg */,
+				18D609A12296AD1400FE54A6 /* OOTY.jpg */,
+				18D609A22296AD1400FE54A6 /* GOA.jpg */,
+				18D609A32296AD1400FE54A6 /* COORG.jpg */,
+				18D609A42296AD1400FE54A6 /* BANGALORE.jpg */,
+				18D609A52296AD1400FE54A6 /* NAINITAL.jpg */,
+				18D609A62296AD1400FE54A6 /* VAISHNO-DEVI.jpg */,
+				18D609A72296AD1400FE54A6 /* DALHOUSIE.jpg */,
+				18D609A82296AD1400FE54A6 /* SHIMLA.jpg */,
+				18D609A92296AD1400FE54A6 /* TIRUPATI.jpg */,
+				18D609AA2296AD1400FE54A6 /* UDAIPUR.jpg */,
+				18D609AB2296AD1400FE54A6 /* ANDAMAN.jpg */,
+				18D609AC2296AD1400FE54A6 /* GANGTOK.jpg */,
+				18D609AD2296AD1400FE54A6 /* PONDICHERRY.jpg */,
+				18D609AE2296AD1400FE54A6 /* DELHI.jpg */,
+				18D609AF2296AD1400FE54A6 /* KANHA.jpg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D609802296A79900FE54A6 /* Swift_CollectionViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D609932296A79C00FE54A6 /* Build configuration list for PBXNativeTarget "Swift_CollectionViewDemo" */;
+			buildPhases = (
+				18D6097D2296A79900FE54A6 /* Sources */,
+				18D6097E2296A79900FE54A6 /* Frameworks */,
+				18D6097F2296A79900FE54A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swift_CollectionViewDemo;
+			productName = Swift_CollectionViewDemo;
+			productReference = 18D609812296A79900FE54A6 /* Swift_CollectionViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D609792296A79900FE54A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18D609802296A79900FE54A6 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 18D6097C2296A79900FE54A6 /* Build configuration list for PBXProject "Swift_CollectionViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D609782296A79900FE54A6;
+			productRefGroup = 18D609822296A79900FE54A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D609802296A79900FE54A6 /* Swift_CollectionViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D6097F2296A79900FE54A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D609B12296AD1400FE54A6 /* KODAIKANAL.jpg in Resources */,
+				18D6098F2296A79C00FE54A6 /* LaunchScreen.storyboard in Resources */,
+				18D609C42296AD1400FE54A6 /* ANDAMAN.jpg in Resources */,
+				18D609C72296AD1400FE54A6 /* DELHI.jpg in Resources */,
+				18D609C52296AD1400FE54A6 /* GANGTOK.jpg in Resources */,
+				18D609BC2296AD1400FE54A6 /* COORG.jpg in Resources */,
+				18D609C22296AD1400FE54A6 /* TIRUPATI.jpg in Resources */,
+				18D6098C2296A79C00FE54A6 /* Assets.xcassets in Resources */,
+				18D609B72296AD1400FE54A6 /* ALLEPPEY.jpg in Resources */,
+				18D6098A2296A79900FE54A6 /* Main.storyboard in Resources */,
+				18D609B22296AD1400FE54A6 /* MOUNT-ABU.jpg in Resources */,
+				18D609B82296AD1400FE54A6 /* DARJEELING.jpg in Resources */,
+				18D609B32296AD1400FE54A6 /* AGRA.jpg in Resources */,
+				18D609B52296AD1400FE54A6 /* MUSSOORIE.jpg in Resources */,
+				18D609BB2296AD1400FE54A6 /* GOA.jpg in Resources */,
+				18D609BE2296AD1400FE54A6 /* NAINITAL.jpg in Resources */,
+				18D609C12296AD1400FE54A6 /* SHIMLA.jpg in Resources */,
+				18D609BF2296AD1400FE54A6 /* VAISHNO-DEVI.jpg in Resources */,
+				18D609B42296AD1400FE54A6 /* LADAKH.jpg in Resources */,
+				18D609C82296AD1400FE54A6 /* KANHA.jpg in Resources */,
+				18D609BA2296AD1400FE54A6 /* OOTY.jpg in Resources */,
+				18D609C62296AD1400FE54A6 /* PONDICHERRY.jpg in Resources */,
+				18D609B62296AD1400FE54A6 /* MUNNAR.jpg in Resources */,
+				18D609B92296AD1400FE54A6 /* MCLEODGANJ.jpg in Resources */,
+				18D609BD2296AD1400FE54A6 /* BANGALORE.jpg in Resources */,
+				18D609C32296AD1400FE54A6 /* UDAIPUR.jpg in Resources */,
+				18D609C02296AD1400FE54A6 /* DALHOUSIE.jpg in Resources */,
+				18D609B02296AD1400FE54A6 /* MANALI.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D6097D2296A79900FE54A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D609872296A79900FE54A6 /* ViewController.swift in Sources */,
+				18D609852296A79900FE54A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18D609882296A79900FE54A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D609892296A79900FE54A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D6098D2296A79C00FE54A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D6098E2296A79C00FE54A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D609912296A79C00FE54A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18D609922296A79C00FE54A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D609942296A79C00FE54A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHWDGYX98M;
+				INFOPLIST_FILE = Swift_CollectionViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Swift-CollectionViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18D609952296A79C00FE54A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHWDGYX98M;
+				INFOPLIST_FILE = Swift_CollectionViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Swift-CollectionViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D6097C2296A79900FE54A6 /* Build configuration list for PBXProject "Swift_CollectionViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D609912296A79C00FE54A6 /* Debug */,
+				18D609922296A79C00FE54A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D609932296A79C00FE54A6 /* Build configuration list for PBXNativeTarget "Swift_CollectionViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D609942296A79C00FE54A6 /* Debug */,
+				18D609952296A79C00FE54A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D609792296A79900FE54A6 /* Project object */;
+}
